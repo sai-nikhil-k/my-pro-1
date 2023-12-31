@@ -1,0 +1,37 @@
+<-----While insatlling the strapi got error while creating the project---->
+1. First to create a project we need to run the command bpx create-next-app@latest project-name
+and 
+2.important note need to have perfered node version also in the project we can install with nvm now 
+locally using 18.17.0v
+and 
+3. It will open a admin panel where we need to register and inside we will be having the users and need 
+to go in content-manager and 
+4. click on user and create account there if not registered the we get issue while cli issue will occur
+and to add a collection we need to go to the cotent-type-buider and create a product and after that
+ we need to pblish that product also and 
+5. when we add the content in it for that we to go again to the content manager and add data 
+and publish it to see the 
+6. products we can see it from the api token we can find the end point and see and if won't see we 
+need to generate the auth token and access it
+7. for adding database we can add it in the config folder in datbase file the configuration of the database
+8. if we have any field and when we apply get request we cannot see the info releted the image for 
+that we need to keep '''?populate=*'''
+9. for updating the product we need to mention the endpoint ''id'' at the end of the 
+url and mention the body passing data to the body will look like this
+{
+"data":{
+"Product":"Dragon Fruit",
+"Cost":[
+{
+"type": "paragraph",
+"children": [
+{
+"text": "3000",
+ "type": "text"
+             }
+                    ]
+                 }
+               ],
+        "Purchsed":false
+    }
+}

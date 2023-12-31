@@ -14,11 +14,16 @@
   "attributes": {
     "Product": {
       "type": "string",
-      "maxLength": 77,
-      "minLength": 5
+      "maxLength": 76,
+      "minLength": 5,
+      "required": true
     },
     "Cost": {
-      "type": "blocks"
+      "type": "blocks",
+      "required": false
+    },
+    "Purchsed": {
+      "type": "boolean"
     }
   }
 }
